@@ -1,0 +1,21 @@
+**장고걸스 튜토리얼 따라해보기 !
+
+djangogirls
+
+-> 가상환경에서 작업 해야함 -> cmd에서 앞에 (myvenv)없으면 (myvenv\Scripts\activate) 를 통해 활성화시켜줘야함!
+
+-> 장고에서는 디렉토리, 파일명 매우중요! -> 파일명 맘대로 변경 x , 옮기기 x !!
+
+* 웹사이트 만들기
+  1. 가상환경 -: myvenv\Scripts\activate
+  2. 디렉터리 생성 : mkdir mynewjango -> cd mynewjango -> django-admin startproject mynewjango .
+  3. 실행 : python manage.py runserver
+
+* 장고 앱 생성
+1. 가상환경 -: myvenv\Scripts\activate
+2. 앱 생성 : python manage.py startapp 이름~
+
+* 만든 장고모델의 변화를 반영 !
+python manage.py makemigrations 이름
+python manage.py migrate 이름
+
