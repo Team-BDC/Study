@@ -1,0 +1,89 @@
+[HTML, CSS]
+
+
+
+*HTML : 내용
+
+*CSS : 스타일
+
+ 
+
+ 
+
+*<!DOCTYPE html> -> 웹브라우저에게 HTML 버전을 알려주는 역할 ( 이렇게 쓰면 자동으로 html5 사용)
+
+ 
+
+*<title>내용</title> -> 웹사이트의 제목
+
+ 
+
+*<h1> 내용 </h1> -> 가장 큰 머리말 ( heading 1 )
+
+*<h2> 내용 </h2> -> 두 번째로 큰 머리말( heading 2 )
+
+-> <h6> 까지 작성 가능 !
+
+ 
+
+*<p> 내용 </p> -> 문단
+
+ 
+
+*굵게 <b>, 강조 <strong>
+
+  -> 두 개의 보이는 결과는 같지만, strong은 스크린 리더가 글을 읽어줄 때 강조해서 읽을 수 있음 ! 
+
+*날려서 <i>, 강조<em>
+
+   -> 두 개의 보이는 결과는 같지만, em은 emphasized의 줄임말 !
+
+ 
+
+*<meta charset = "utf-8"> -> 한글 안 깨지게 하기 위함 !
+
+ 
+
+*html, head(title, meta, style 들어감), body 태그 
+
+  -> 필수x, 옵셔널 태그 ! -> 정리 위함!(파일의 구조 더 쉽게 파악하기 위함)
+
+ 
+
+*class : 중복 클래스 가능 -> 여러 개에 같은 효과 입힐 때 ! -> 여러 요소 스타일링 !
+
+  -> . (마침표) 로 나타냄 !
+
+*id : 중복 아이디 불가능 !! -> 한 요소만 스타일링~
+
+  -> # 으로 나타냄 !
+
+ 
+
+*<div> 요소들을 묶어줌 !
+
+ 
+
+*가운데 정렬
+
+  margin-left : auto;
+
+  margin-right : auto;
+
+ 
+
+*style을 head 내부(style 태그),  또는 <h1 style="color : red;">(style 속성) 이런식으로도 써도 되지만,
+
+코드 정돈을 위해 외부 css파일 만들고 link로 연결하는 방법 권장 !  
+
+  ex)  <link href="css/syles.css" rel="stylesheet"> 
+
+ 
+
+*comment 
+
+  ->html : <!-- 내용 -->
+
+  ->css : /* 내용 */
+
+  ->여러줄 할 때는 ctrl+shift+슬래시
